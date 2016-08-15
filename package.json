@@ -1,0 +1,29 @@
+{
+  "name": "doop-immutablejs",
+  "version": "1.0.0",
+  "description": "Support for immutable.js collections in Doop",
+  "main": "built/index.js",
+  "typings": "built/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielearwicker/doop-immutablejs.git"
+  },
+  "keywords": [
+    "immutable",
+    "decorators",
+    "typescript"
+  ],
+  "author": "Daniel Earwicker <dan@earwicker.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielearwicker/doop-immutablejs/issues"
+  },
+  "homepage": "https://github.com/danielearwicker/doop-immutablejs#readme",
+  "dependencies": {
+    "doop": "^2.2.1",
+    "immutable": "^3.8.1"
+  }
+}
