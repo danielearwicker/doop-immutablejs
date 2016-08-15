@@ -1,6 +1,6 @@
 {
   "name": "doop-immutablejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Support for immutable.js collections in Doop",
   "main": "built/index.js",
   "typings": "built/index.d.ts",
