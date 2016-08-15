@@ -1,7 +1,7 @@
 import { doop, field, collection, action, Mapper, Cursor } from "doop";
 import { Map } from "immutable";
 
-export function immutableMapMapper<Key, Value>(): Mapper<Value, Map<Key, Value>, Key> {
+export function mapMapper<Key, Value>(): Mapper<Value, Map<Key, Value>, Key> {
     return {
 
         empty: Map<Key, Value>(),
